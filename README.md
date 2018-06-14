@@ -13,6 +13,7 @@
 备注：保存的爬虫数据csv格式，需用WPS版excel打开，或是用txt直接打开。
 
 代码下载：https://github.com/ABCnelson/scrapy-
+图文说明网址：https://www.sohu.com/a/235695387_100064227
 
 1.打开test100文件夹
 
