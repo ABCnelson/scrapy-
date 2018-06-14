@@ -1,0 +1,17 @@
+
+新建工程
+scrapy startproject preoject_name
+
+运行scrapy，需cmd进去，cd到scrapy根目录
+scrapy crawl spider_name
+
+修改至spider目录，新建spider
+scrapy genspider shushan "www.shushan.net.cn"
+
+修改至spider目录,运行scrapy，并生成csv文件
+scrapy crawl spider_name -o spider_name.csv
+
+修正生成csv文件，出现多处空白行问题
+C:\Users\Administrator\AppData\Local\Programs\Python\Python35\Lib\site-packages\scrapy
+exporters.py添加句子
+newline=‘‘,      #在这里添加newline=‘‘,
